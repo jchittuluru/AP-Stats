@@ -1,44 +1,60 @@
 ---
-title       : Insert the chapter title here
-description : Insert the chapter description here
-attachments :
-  slides_link : https://s3.amazonaws.com/assets.datacamp.com/course/teach/slides_example.pdf
+title       : Chapter 3 
+description : Examining Relationships through Scatterplots, Correlation, and Least-Squares Regression
+attachments : 
+  slides_link : https://drive.google.com/open?id=0BzCPikTu8tqYNkdESE9qMy1XWFE&authuser=0
 
 --- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:4c580e84bc
-## A really bad movie
+## Describing a Scatterplot: Direction
 
-Have a look at the plot that showed up in the viewer to the right. Which type of movie has the worst rating assigned to it?
+Have a look at the plot that showed up in the viewer to the right. How would you describe its direction?
 
 *** =instructions
-- Adventure
-- Action
-- Animation
-- Comedy
+- Positive Association
+- Negative Association
+- No Association
 
 *** =hint
-Have a look at the plot. Which color does the point with the lowest rating have?
+Have a look at the plot; what kind of slope would a line drawn through the points have?
 
 *** =pre_exercise_code
 ```{r}
 # The pre exercise code runs code to initialize the user's workspace.
 # You can use it to load packages, initialize datasets and draw a plot in the viewer
 
-movies <- read.csv("http://s3.amazonaws.com/assets.datacamp.com/course/introduction_to_r/movies.csv")
+boats = c(498, 513, 512, 526, 559, 585, 614, 645, 675, 711, 719)
+manatees = c(16, 24, 20, 15, 34, 33, 33, 39, 43, 50, 47)
+plot(boats,manatees, ylab = "Manatee Deaths", xlab = "Thousands of Registered Boats")
 
-library(ggplot2)
-
-ggplot(movies, aes(x = runtime, y = rating, col = genre)) + geom_point()
 ```
 
 *** =sct
 ```{r}
 # SCT written with testwhat: https://github.com/datacamp/testwhat/wiki
 
-msg_bad <- "That is not correct!"
-msg_success <- "Exactly! There seems to be a very bad action movie in the dataset."
-test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
+msg_bad <- "Please try again :)"
+msg_success <- "Correct, the number of manatee deaths increases with powerboat registrations."
+test_mc(correct = 1, feedback_msgs = c(msg_success, msg_bad, msg_bad))
 ```
 
+
+--- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:d7294368a3
+## <<<New Exercise>>>
+
+
+*** =instructions
+
+*** =hint
+
+*** =pre_exercise_code
+```{r}
+
+```
+
+*** =sct
+```{r}
+
+```
 --- type:NormalExercise lang:r xp:100 skills:1 key:cebccefc02
 ## More movies
 
