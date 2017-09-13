@@ -37,24 +37,6 @@ msg_success <- "Correct, the number of manatee deaths increases with powerboat r
 test_mc(correct = 1, feedback_msgs = c(msg_success, msg_bad, msg_bad))
 ```
 
-
---- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:d7294368a3
-## <<<New Exercise>>>
-
-
-*** =instructions
-
-*** =hint
-
-*** =pre_exercise_code
-```{r}
-
-```
-
-*** =sct
-```{r}
-
-```
 --- type:NormalExercise lang:r xp:100 skills:1 key:cebccefc02
 ## More movies
 
