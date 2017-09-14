@@ -116,15 +116,13 @@ success_msg("Good work!")
 --- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:3487dbbbc7
 ## Problem 3.1 (a)
 
-Problem 3.1 (a)
-
+Given the relationship between the amount of time that a student spends studying for her test and the grade that she receives, her study time should be considered...
 
 *** =instructions
-Given the relationship between the amount of time that a student spends studying for her test and the grade that she receives, her study time should be considered... 
-
--a response variable
--an unrelated variable
--an explanatory variable
+ 
+- a response variable
+- an unrelated variable
+- an explanatory variable
 
 *** =pre_exercise_code
 ```{r}
