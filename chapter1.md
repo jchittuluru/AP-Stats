@@ -143,16 +143,15 @@ test_mc(correct = 3, feedback_msgs = c(msg_bad, msg_bad, msg_success))
 --- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:eff633f5c7
 ## Problem 3.1 (b)
 
-
-Problem 3.1 (b)
+Given the relationship between a person's height and weight, a person's weight should be considered... 
 
 
 *** =instructions
-Given the relationship between a person's height and weight, a person's weight should be considered... 
 
--a response variable
--an unrelated variable
--an explanatory variable
+
+- a response variable
+- an unrelated variable
+- an explanatory variable
 
 *** =pre_exercise_code
 ```{r}
@@ -172,16 +171,15 @@ test_mc(correct = 1, feedback_msgs = c(msg_success, msg_bad, msg_bad))
 --- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:8f2d929d1a
 ## Problem 3.1 (c)
 
-
-Problem 3.1 (c)
+Given the relationship between the amount of yearly rainfall and the yield of a crop, the amount of rainfall should be considered...
 
 
 *** =instructions
-Given the relationship between the amount of yearly rainfall and the yield of a crop, the amount of rainfall should be considered... 
+ 
 
--a response variable
--an unrelated variable
--an explanatory variable
+- a response variable
+- an unrelated variable
+- an explanatory variable
 
 *** =pre_exercise_code
 ```{r}
@@ -202,15 +200,15 @@ test_mc(correct = 3, feedback_msgs = c(msg_bad, msg_bad, msg_success))
 ## Problem 3.1 (d)
 
 
-Problem 3.1 (d)
+Given the relationship between a person's grade in statistics and a person's grade in French, a person's grade in statistics should be considered... 
 
 
 *** =instructions
-Given the relationship between a person's grade in statistics and a person's grade in French, a person's grade in statistics should be considered... 
 
--a response variable
--an unrelated variable
--an explanatory variable
+
+- a response variable
+- an unrelated variable
+- an explanatory variable
 
 *** =pre_exercise_code
 ```{r}
@@ -231,15 +229,15 @@ test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad))
 ## Problem 3.1 (e)
 
 
-Problem 3.1 (e)
+Given the relationship between a father's occupational class and his son's occupational class, his son's occupational class should be considered... 
+
 
 
 *** =instructions
-Given the relationship between a father's occupational class and his son's occupational class, his son's occupational class should be considered... 
 
--a response variable
--an unrelated variable
--an explanatory variable
+- a response variable
+- an unrelated variable
+- an explanatory variable
 
 *** =pre_exercise_code
 ```{r}
@@ -259,16 +257,16 @@ test_mc(correct = 1, feedback_msgs = c(msg_success, msg_bad, msg_bad))
 --- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:648ac92014
 ## Problem 3.3
 
-Problem 3.3
+There may be a gender gap in the US with regard to political preference, with women tending to prefer the Democrat Party to the Republican Party. If a statistician conducts a study that asks voters whether they prefer to vote Democrat or Republican, which variable in this study is explanatory, and which is response? Further, are these variables catagorical or quantititative?
 
 
 *** =instructions
-There may be a gender gap in the US with regard to political preference, with women tending to prefer the Democrat Party to the Republican Party. If a statistician conducts a study that asks voters whether they prefer to vote Democrat or Republican, which variable in this study is explanatory, and which is response? Further, are these variables catagorical or quantititative?
 
--Explanatory: Party Preference, Response: Gender, Variables are Categorical
--Explanatory: Gender, Response: Party Preference, Variables are Categorical
--Explanatory: Party Preference, Response: Gender, Variables are Quantitative
--Explanatory: Gender, Response: Party Preference, Variables are Quantitative
+
+- Explanatory: Party Preference, Response: Gender, Variables are Categorical
+- Explanatory: Gender, Response: Party Preference, Variables are Categorical
+- Explanatory: Party Preference, Response: Gender, Variables are Quantitative
+- Explanatory: Gender, Response: Party Preference, Variables are Quantitative
 
 *** =hint
 Is gender affecting voter preference, or is voter preference causing people to adopt a different gender? Also, are there any numerical values involved above?
@@ -290,14 +288,12 @@ test_mc(correct = 2, feedback_msgs = c(msg_bad, msg_success, msg_bad, msg_bad))
 --- type:MultipleChoiceExercise lang:r xp:50 skills:1 key:df2a3ff1c0
 ## Problem 3.7 (a)
 
-Problem 3.7 (a)
-
-
-*** =instructions
 If a study investigates the relationship between the number of jet skis in use and the number of jet ski accidents, the explanatory variable is...
 
--the number of jet skis in use
--the number of jet ski accidents
+*** =instructions
+
+- the number of jet skis in use
+- the number of jet ski accidents
 
 
 *** =hint
